@@ -27,22 +27,8 @@ Application web CRUD complète pour la gestion d'utilisateurs, construite avec S
 
 ## Structure du projet
 
-```
-src/main/
-├── java/ma/example/demo/
-│   ├── entities/
-│   │   └── User.java           # Entité JPA
-│   ├── repository/
-│   │   └── UserRepository.java # Interface CrudRepository
-│   ├── UserController.java     # Contrôleur MVC (CRUD)
-│   └── Application.java        # Point d'entrée
-└── resources/
-    ├── templates/
-    │   ├── index.html           # Liste des utilisateurs
-    │   ├── add-user.html        # Formulaire ajout
-    │   └── update-user.html     # Formulaire modification
-    └── application.properties
-```
+<img width="303" height="394" alt="5-tp6" src="https://github.com/user-attachments/assets/4834611a-27f2-491b-a067-f88f45970a06" />
+
 
 ---
 
@@ -99,20 +85,18 @@ src/main/
 
 ---
 
-## Dépendances principales (`pom.xml`)
+## Les interfaces des resultats
 
-```xml
-spring-boot-starter-web
-spring-boot-starter-data-jpa
-spring-boot-starter-thymeleaf
-spring-boot-starter-validation
-mysql-connector-j
-spring-boot-devtools
-lombok
-```
+<img width="915" height="323" alt="4-tp6" src="https://github.com/user-attachments/assets/1d365da2-6f4f-445e-bf67-99495edea404" />
+
+<img width="960" height="211" alt="1-tp6" src="https://github.com/user-attachments/assets/e39c955a-56fd-4586-88bd-6cb4d88737d6" />
+
+<img width="960" height="326" alt="3-tp6" src="https://github.com/user-attachments/assets/60d2ad94-3439-4437-aa70-1407935c4f5f" />
+
+<img width="953" height="295" alt="2-tp6" src="https://github.com/user-attachments/assets/ffde2047-2ca7-4914-8fa4-f6cbc589b78e" />
 
 ---
 
-## Auteur
 
-Projet réalisé dans le cadre d'un TP Spring Boot — 2026
+
+
